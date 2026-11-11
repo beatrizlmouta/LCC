@@ -81,7 +81,7 @@ Sempre que abrires o terminal do zero para trabalhar num projeto:
     ```text
     git pull 
     ```
-3. **Faz o teu trabalho** 
+3. **Faz o teu trabalho** (não te esqueças do **ctrl s** no final)
 4. **Manda tudo de volta para o GitHub** (estes são os 3 comandos mais importantes): 
    ```text
       git add . (não te esqueças do espaço e do ponto final!)
