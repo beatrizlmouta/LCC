@@ -25,7 +25,7 @@ Matriz é uma tabela organizada em linhas e colunas no formato **m x n**, onde *
 
 ### **Matriz Inversa**
 Uma matriz quadrada B é a inversa da matriz quadrada A quando a multiplicação das duas matrizes resulta em uma matriz identidade In, ou seja, A x B = B x A = In 
-  * <mark>Exemplo:</mark>  
+  * **Exemplo:**  
 ```text              
 B = [  2   1  ]      B⁻¹ =  [   3  -1  ]
     [  5   3  ]             [  -5   2  ]
@@ -38,7 +38,7 @@ B x B⁻¹ = [  2   1  ]  x [   3  -1  ] = [2x3+1x(-5)   2x(-1)+1x2] = [1 0]
 
 ### **Matriz Transposta** 
 Troca ordenada das linhas e colunas. 
-   * <mark>Exemplo:</mark>
+   * **Exemplo:**
 ```text
 B = [1 2]  a transposta fica: [1 3 5]
     [3 4]                     [2 4 6] 
@@ -48,7 +48,7 @@ B = [1 2]  a transposta fica: [1 3 5]
 ## Operações entre Matrizes 
 ###Adição de matrizes 
 Só é possivel somar matrizes do mesmo tipo. 
-  * <mark>Exemplo:</mark>
+  * **Exemplo:**
 ```text
 [1  3] + [2  0] = [ 1+2      3+0] = [3  3]
 [-1 0]   [3 -1]   [(-1)+3 0*(-1)]   [2 -1]
