@@ -13,6 +13,12 @@ Matriz é uma tabela organizada em linhas e colunas no formato **m x n**, onde *
 * **Triangular Superior:** Todos os elementos abaixo da diagonal principal são zero.
 * **Triangular Inferior:** Todos os elementos acima da diagonal principal são zero.
 
+  #### Propriedades 
+ * **Comutativa:** A + B = B + A
+ * **Associativa:** (A + B) + C = A + (B +C)
+ * **Elemento neutro:** A + 0 = 0 + A = A (se 0 for uma matriz nula da mesma ordem que a matriz A)
+ * **Elemento simétrico:** A + (-A) = (-A) + A = 0 
+
 ### **Matriz Identidade (In)**
 É uma matriz quadrada cujos elementos da diagonal principal são iguais a 1 e os restantes são iguais a 0.  
                        <img src="https://github.com/user-attachments/assets/066ba9b0-1c98-4d9d-922f-2ae9213f5a89" width="150" />
@@ -47,9 +53,4 @@ Só é possivel somar matrizes do mesmo tipo.
 [1  3] + [2  0] = [ 1+2      3+0] = [3  3]
 [-1 0]   [3 -1]   [(-1)+3 0*(-1)]   [2 -1]
 ```
-#### Propriedades 
- * **Comutativa:** A + B = B + A
- * **Associativa:** (A + B) + C = A + (B +C)
- * **Elemento neutro:** A + 0 = 0 + A = A (se 0 for uma matriz nula da mesma ordem que a matriz A)
- * **Elemento simétrico:** A + (-A) = (-A) + A = 0 
-   
+
