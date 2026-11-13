@@ -45,11 +45,35 @@ B = [1 2]  a transposta fica: [1 3 5]
     [5 6]
 ```
 
+### **Matriz Conjugada** 
+A matriz conjugada normalmente só é usada quando existem números complexos(parte imaginária). Se uma matriz tiver apenas números reais, o processo de conjugação não altera nenhum valor e a matriz resultante é idêntica à original.
+
+
+### **Matriz Transconjugada** 
+É a transposta da conjugada. 
+
 ## Operações entre Matrizes 
-###Adição de matrizes 
+### Adição de matrizes 
 Só é possivel somar matrizes do mesmo tipo. 
   * **Exemplo:**
 ```text
 [1  3] + [2  0] = [ 1+2      3+0] = [3  3]
-[-1 0]   [3 -1]   [(-1)+3 0*(-1)]   [2 -1]
+[-1 0]   [3 -1]   [(-1)+3 0+(-1)]   [2 -1]
 ```
+### Subtração de matrizes 
+Só é possivel subtrair matrizes do mesmo tipo. 
+  * **Exemplo:**
+```text
+[1  3] - [2  0] = [ 1-2      3-0] = [-1  3]
+[-1 0]   [3 -1]   [(-1)-3 0-(-1)]   [-4  1]
+```
+### Multiplicação de matrizes 
+Só é possivel multiplicar duas matrizes se o número de colunas de uma matriz A for exatamente igual ao número de linhas de uma matriz B. 
+
+⚠️ A múltiplicação não é comutativa ( AB ≠ BA ). Quando AB = BA diz-se que as matrizes são comutáveis. 
+
+### Potências 
+
+---
+
+
