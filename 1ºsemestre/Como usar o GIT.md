@@ -58,7 +58,7 @@ Antes de mexeres no Git, precisas de saber andar pelas pastas no terminal:
 ## PASSO 2: Descarregar um repositório 
 Quando crias um repositório no GitHub (ou entras num projeto de grupo), precisas de o puxar para o teu computador **uma primeira vez**:
 
-1. Abre o terminal, cria uma pasta para os teus projetos da faculdade e entra nela:
+1. Abre o terminal, cria uma pasta para os teus projetos e entra nela:
    ```text
    mkdir pasta
    cd pasta
