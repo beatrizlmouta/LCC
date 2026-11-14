@@ -26,7 +26,7 @@ Antes de mexeres no Git, precisas de saber andar pelas pastas no terminal:
 * `cd ..` -Volta para a pasta anterior. 
 * `cd`-O terminal transporta-te de volta para a tua pasta pessoal principal.    
 * `mkdir "Pasta"` -Cria apenas uma pasta. 
-* `mkdir -p "Pasta/Subpasta"` -Cria uma pasta e uma subpasta dentro dela e uma só vez.  (**ATENÇÃO:** O git ignora pastas vazias então certifica-te de adicionares sempre algum documento.)
+* `mkdir -p "Pasta/Subpasta"` -Cria uma pasta e uma subpasta dentro dela.  (**ATENÇÃO:** O git ignora pastas vazias então certifica-te de adicionares sempre algum documento.)
 * `touch "Pasta/ficheiro.md"` -Cria um ficheiro vazio lá dentro (agora o Git já vê a pasta)
 * `mv "origem" "destino"` -O comando `mv` serve para duas coisas: **mover um ficheiro**(ex: `mv "apontamentos.md" "Álgebra Linear/"`) ou **mudar-lhe o nome**(ex: `mv "rascunho.md" "final.md"`).
 * `rm "ficheiro.md"` -Apaga um **ficheiro** permanentemente.
