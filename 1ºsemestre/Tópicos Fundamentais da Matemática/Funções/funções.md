@@ -104,7 +104,7 @@ A imagem de um conjunto $X$ por uma função $f:A→B$ é o **conjunto de todos 
  * A imagem de todo o dominio $A$ é o contradomínio efetivo(ou conjunto imagem) da função: **$f(A) = D'_f$**
 
 ### imagem inversa de um conjunto por uma função 
-A imagem inversa de um conjunto $Y ⊆ B$ por uma função $f:A→B$ é o subconjunto do dominio $A$ formado por todas os elementos cujas imagens pertencem a $Y$, representando-se por $f^{-1}(Y)$ ou $f^{\leftarrow}(Y)$
+A imagem inversa de um conjunto $Y ⊆ B$ por uma função $f:A→B$ é o subconjunto do dominio $A$ formado por todas os elementos cujas imagens pertencem a $Y$, representando-se por $f^{-1}(Y)  ou  f^{\leftarrow}(Y)$
 
  $f: A→B$ 
  $B_1 ⊆ B f^{\leftarrow}(B_1) = {x ∈ A: F(x) ∈ B_1}$
