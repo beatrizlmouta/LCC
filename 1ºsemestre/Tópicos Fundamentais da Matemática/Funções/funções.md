@@ -25,8 +25,6 @@ $∅: ∅ → A$
 ⚠️ **$∅$ = 0 funções (impossível) ; ${∅}$ = 1 função (a função vazia)**
 
 
-
-
 ## Igualdade de funções: 
 $f: A → B$ e $g: A' → B'$ são iguais se $A=A'$ e $B=B'$ e $f(x)=g(x)$ para todo $x ∈ A$.
 
@@ -98,7 +96,8 @@ Se $f: A → B$ e $g: B → C$ são bijetivas, então:
 A imagem de um conjunto $X$ por uma função $f:A→B$ é o **conjunto de todos os resultados obtidos ao aplicar a função a cada elemento de $X$.** Representa-se por **$f(X)$** ou **$f^{\to}(X)$**
  
  $f: A→B$ 
- $A_1 ⊆ A f^{\to}(A_1) = {f(x): x ∈ A_1}$
+ 
+ $A_1 ⊆ A f^{\to}(A_1)={f(x): x ∈ A_1}$
 
  * A imagem do conjunto vazio é sempre vazia: **$f(∅) = ∅$**
  * A imagem de todo o dominio $A$ é o contradomínio efetivo(ou conjunto imagem) da função: **$f(A) = D'_f$**
@@ -106,8 +105,9 @@ A imagem de um conjunto $X$ por uma função $f:A→B$ é o **conjunto de todos 
 ### imagem inversa de um conjunto por uma função 
 A imagem inversa de um conjunto $Y ⊆ B$ por uma função $f:A→B$ é o subconjunto do dominio $A$ formado por todas os elementos cujas imagens pertencem a $Y$, representando-se por $f^{-1}(Y)  ou  f^{\leftarrow}(Y)$
 
- $f: A→B$ 
- $B_1 ⊆ B f^{\leftarrow}(B_1) = {x ∈ A: F(x) ∈ B_1}$
+ $f: A→B$
+ 
+ $B_1 ⊆ B f^{\leftarrow}(B_1)={x ∈ A: f(x) ∈ B_1}$
 
  ⚠️Aplica-se a qualquer função $f$, mesmo que não seja bijetiva (não exige função inversa)
 
@@ -115,10 +115,11 @@ A imagem inversa de um conjunto $Y ⊆ B$ por uma função $f:A→B$ é o subcon
 * $f^{\leftarrow}(B) = A = D'_f$
 
 **Teorema(composição de imagens):**
-* $ X ⊆ f^{\leftarrow}(f(x))$;
-* $ X = f^{\leftarrow}(f(x))$, se $f$ for injetiva. 
-* $ f(f^{\leftarrow}(Y)) ⊆ Y$;
-* $ f(f^{\leftarrow}(Y)) = Y$, se $f$ for sobrejetiva.
+* $X ⊆ f^{\leftarrow}(f(x))$;
+* $X = f^{\leftarrow}(f(x))$, se $f$ for injetiva. 
+* $f(f^{\leftarrow}(Y)) ⊆ Y$;
+* $f$ $(f^{\leftarrow}(Y))$ = $Y$, se $f$ for sobrejetiva.
+* 
 **Teorema(caracterização de imaegns):** 
 * $f$ é injetiva $⇔ f(X∩Y) = f(x) ∩ f(Y)$
 * $f$ é sobrejetiva $⇔$ $\Leftrightarrow B \setminus f(x) ⊆ f(A \setminus X)$
