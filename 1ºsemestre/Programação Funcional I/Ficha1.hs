@@ -54,3 +54,14 @@ horaDepois (h1,m1) (h2,m2) |h1 > h2 = True
                            |h1 == h2 && m1>m2 = True 
                            |otherwise = False 
 
+hora2min :: Hora -> Int 
+hora2min (h,m) = h * 60 + m 
+
+min2hora :: Int -> Hora 
+min2hora m = (div m 60, mod m 60) --Cada hora tem 60min, o quociente desta divisão dá o número exato de horas completas. O que sobra da divisão corresponde aos minutos que não chegaram para formar uma hora completa.
+
+difHoras :: Hora -> Hora -> Int 
+difHoras h1 h2 = abs (hora2min h1 - hora2min h2)
+
+addMin :: Int -> Hora -> Hora 
+addMin = x (h,m) = min2hora (hora2min (h,m) + x) 
